@@ -1,5 +1,12 @@
 import React from 'react';
+import Container from '@material-ui/core/Button';
 
-const HeaderView = () => <h1>Chau</h1>;
+import style from './style';
+
+const HeaderView = () => {
+  const classes = style();
+
+  return <Container className={classes.headerContainer}>Chau</Container>;
+};
 
 export default HeaderView;
