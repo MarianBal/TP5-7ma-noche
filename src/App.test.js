@@ -14,7 +14,6 @@ describe('App', () => {
   it('App renders correctly', () => {
     const wrapper = shallow(<App />);
 
-    console.log(wrapper.debug());
     expect(wrapper.find('MainAppView').length).toBe(1);
   });
 });
