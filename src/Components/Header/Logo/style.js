@@ -7,5 +7,9 @@ export default makeStyles({
     width: '95px',
     height: '75px',
     backgroundColor: colors.logo,
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
+  logo: {},
 });
