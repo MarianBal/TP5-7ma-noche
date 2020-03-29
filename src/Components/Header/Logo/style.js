@@ -11,12 +11,12 @@ export default makeStyles({
     justifyContent: 'center',
     alignItems: 'center',
     cursor: 'pointer',
-    transition: 'transform 1s ease-out',
   },
   logo: {
     height: '40px',
     '&:hover': {
       transform: 'scale(1.1)',
+      transition: 'transform 1s ease-out',
     },
   },
 });
