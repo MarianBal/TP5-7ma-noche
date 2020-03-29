@@ -3,13 +3,12 @@ import React from 'react';
 import style from './style';
 import { translations } from './../../../constants/translations';
 
-const LogoView = () => {
+const LogoView = ({ goBackToMain }) => {
   const classes = style();
-
   const { adaAlt } = translations.logo;
 
   return (
-    <div className={classes.logoContainer}>
+    <div className={classes.logoContainer} onClick={goBackToMain}>
       <img
         className={classes.logo}
         src={require('./../../../img/logo.png')}

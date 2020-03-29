@@ -10,5 +10,7 @@ export default makeStyles({
     backgroundColor: colors.primary,
     borderRadius: 0,
     paddingLeft: 0,
+    display: 'flex',
+    flexDirection: 'row',
   },
 });
