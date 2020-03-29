@@ -10,6 +10,13 @@ export default makeStyles({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    cursor: 'pointer',
+    transition: 'transform 1s ease-out',
   },
-  logo: {},
+  logo: {
+    height: '40px',
+    '&:hover': {
+      transform: 'scale(1.1)',
+    },
+  },
 });
