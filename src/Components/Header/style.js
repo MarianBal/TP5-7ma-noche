@@ -12,5 +12,7 @@ export default makeStyles({
     paddingLeft: 0,
     display: 'flex',
     flexDirection: 'row',
+    position: 'sticky',
+    top: 0,
   },
 });

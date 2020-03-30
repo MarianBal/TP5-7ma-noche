@@ -7,8 +7,8 @@ export default makeStyles({
     alignItems: 'center',
   },
   lookingGlass: {
-    width: '18px',
-    marginRight: 10,
+    fontSize: '1.5rem',
+    marginRight: 15,
   },
   input: {
     width: '800px',

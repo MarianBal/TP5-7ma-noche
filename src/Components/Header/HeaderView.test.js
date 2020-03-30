@@ -13,7 +13,6 @@ describe('HeaderView', () => {
 
   it('LogoView renders correctly', () => {
     const wrapper = shallow(<HeaderView />);
-    console.log(wrapper.debug());
 
     expect(wrapper.find('LogoWrapper').length).toBe(1);
     expect(wrapper.find('SearchWrapper').length).toBe(1);
