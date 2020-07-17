@@ -20,6 +20,7 @@ export default makeStyles({
   },
   bars: {
     marginLeft: 'auto',
-    marginRight: 0
+    marginRight: 0,
+    visibility: 'hidden'
   }
 });

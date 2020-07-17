@@ -17,7 +17,9 @@ describe('SearchView', () => {
     const wrapper = shallow(<SearchView handleSearchText={randomFn} />);
 
     expect(wrapper.find('div').length).toBe(1);
-    expect(wrapper.find('SearchIcon').length).toBe(1);
+    expect(wrapper.find('i').length).toBe(2);
+    expect(wrapper.find('.fa-search').length).toBe(1);
+    expect(wrapper.find('.fa-bars').length).toBe(1);
     expect(wrapper.find('input').length).toBe(1);
   });
 });
