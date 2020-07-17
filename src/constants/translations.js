@@ -1,6 +1,8 @@
 export const translations = {
   logo: {
-    //adaRoute: './../../../img/logo.png',
-    adaAlt: 'Logo de Ada',
+    adaAlt: 'Logo de Ada'
   },
+  search: {
+    placeholderText: 'Search for a movie...'
+  }
 };

@@ -1,4 +1,4 @@
 export const colors = {
-  primary: 'white',
-  logo: '#bc3b69',
+  primary: '#fff',
+  logo: '#bc3b69'
 };
