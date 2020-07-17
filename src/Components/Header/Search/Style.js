@@ -2,15 +2,14 @@ import { makeStyles } from '@material-ui/styles';
 
 export default makeStyles({
   searchContainer: {
-    width: '100%',
+    width: '85%',
     marginLeft: 50,
-    marginRight: 20,
     display: 'flex',
     alignItems: 'center'
   },
   lookingGlass: {
     fontSize: '1.5rem',
-    marginRight: 15
+    marginRight: '5px'
   },
   input: {
     width: '800px',

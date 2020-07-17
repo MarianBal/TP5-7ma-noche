@@ -13,6 +13,6 @@ export default makeStyles({
     display: 'flex',
     flexDirection: 'row',
     position: 'sticky',
-    top: 0,
-  },
+    top: 0
+  }
 });
