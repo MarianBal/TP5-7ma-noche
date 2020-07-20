@@ -1,2 +1,2 @@
-import MainAppView from './MainAppView';
-export default MainAppView;
+import MainAppWrapper from './MainAppWrapper';
+export default MainAppWrapper;
