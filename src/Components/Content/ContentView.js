@@ -1,5 +1,15 @@
 import React from 'react';
 
-const ContentView = () => <h1>Hola</h1>;
+import Hero from './Hero';
+import style from './style';
+
+const ContentView = () => {
+  const classes = style();
+  return (
+    <div className={classes.verticalContainer}>
+      <Hero />
+    </div>
+  );
+};
 
 export default ContentView;

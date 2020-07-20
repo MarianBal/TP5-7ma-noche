@@ -4,14 +4,18 @@ import React from 'react';
 import Header from './../Header';
 import SideBar from '../SideBar';
 import Content from '../Content';
+import style from './style';
 //import { PATHS } from './../../constants/paths';
 
 const MainAppView = () => {
+  const classes = style();
   return (
     <>
       <Header />
-      <SideBar />
-      <Content />
+      <div className={classes.mainContainer}>
+        <SideBar />
+        <Content />
+      </div>
     </>
   );
 };

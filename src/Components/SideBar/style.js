@@ -4,7 +4,6 @@ import { colors } from './../../constants/style';
 
 export default makeStyles({
   container: {
-    width: '100%',
     display: 'flex',
     justifyContent: 'flex-start',
     alignItems: 'flex-start'
@@ -17,7 +16,8 @@ export default makeStyles({
     margin: 0,
     padding: 0,
     position: 'sticky',
-    top: '75px'
+    top: '75px',
+    fontFamily: 'Roboto, sans-serif'
   },
   categories: {
     width: '95px',
@@ -31,7 +31,8 @@ export default makeStyles({
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    color: colors.font_color
   },
   svg: {
     width: '20px',

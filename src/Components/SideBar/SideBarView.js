@@ -17,7 +17,7 @@ const SideBarView = ({ sidebarOptions }) => {
                 width={classNames.svgWeigth}
                 height={classNames.svgWeigth}
               >
-                <path d={option.path} fill-rule={classNames.nonzero}></path>
+                <path d={option.path} fillRule={classNames.nonzero}></path>
               </svg>
               <p>{option.text}</p>
             </li>

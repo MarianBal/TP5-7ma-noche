@@ -4,5 +4,8 @@ export const translations = {
   },
   search: {
     placeholderText: 'Search for a movie...'
+  },
+  hero: {
+    heroText: 'the movie db app'
   }
 };
